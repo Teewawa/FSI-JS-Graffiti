@@ -1,103 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Doggos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-    <head>
-        <title>Doggos</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            * {
-                box-sizing: border-box;
-            }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-            }
+      /* Style the header */
+      #page-header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+        font-size: 35px;
+      }
 
-            /* Style the header */
-            #page-header {
-                background-color: #f1f1f1;
-                padding: 20px;
-                text-align: center;
-                font-size: 35px;
-            }
+      /* Container for flexboxes */
+      .row {
+        display: flex;
+      }
 
-            /* Container for flexboxes */
-            .row {
-                display: flex;
-            }
+      /* Create three equal columns that sits next to each other */
+      .column {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+      }
 
-            /* Create three equal columns that sits next to each other */
-            .column {
-                flex: 1;
-                padding: 10px;
-                text-align: center;
-            }
+      /* Scale down the images */
+      img {
+        width: 80%;
+      }
 
-            /* Scale down the images */
-            img {
-                width: 80%;
-            }
+      /* Style the footer */
+      .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
 
-            /* Style the footer */
-            .footer {
-                background-color: #f1f1f1;
-                padding: 10px;
-                text-align: center;
-            }
-        </style>
-    </head>
+  <body>
+    <div id="page-header">
+      <h2>Doggos</h2>
+    </div>
 
-    <body>
+    <div class="row">
+      <div class="column">
+        <img class="dog-image" src="./assets/pip.jpg" />
+        <h1 class="dog-name">Pip</h1>
+        <p class="dog-description">
+          This excitable dog is loving towards her owner, and will always come
+          when called. She is not afraid of strangers, and gets along well with
+          other animals. She's smart and can easily open doors and containers.
+          She is generally clean. She is slightly playful and can entertain
+          herself for hours on end. She's quiet until she's hungry. She will
+          steal food from plates if she is not stopped. Her favorite dog food is
+          cooked chicken. She is street-smart.
+        </p>
+      </div>
+      <div class="column">
+        <img class="dog-image" src="./assets/tess.jpg" />
+        <h1 class="dog-name">Tess</h1>
+        <p class="dog-description">
+          This friendly dog is indifferent toward his owner, and never comes
+          when called. He immediately gets involved with the personal belongings
+          of any new person who enters his space, and does not mind other
+          animals. He's extremely dopey and does not know any basic commands. He
+          is generally extremely clean. He is housebroken. He is extremely
+          playful and can entertain himself for hours on end with any items
+          found on the floor. He likes to talk at his toys.
+        </p>
+      </div>
+      <div class="column">
+        <img class="dog-image" src="./assets/rizzo.jpg" />
+        <h1 class="dog-name">Rizzo</h1>
+        <p class="dog-description">
+          This gentle dog is aloof toward her owner, and never comes when
+          called. She always acts as though any stranger she meets will harm
+          her, and dislikes other animals. She's smart and very crafty. She is
+          only slightly clean and hates having her teeth cleaned; she rarely
+          cleans herself after toileting. She is not very playful She's only
+          quiet when she's asleep or up to something. She will refuse to move
+          when it's time to end the walk. She loves to roam.
+        </p>
+      </div>
+    </div>
 
-        <div id="page-header">
-            <h2>Doggos</h2>
-        </div>
+    <div class="footer">
+      <p>Paid for by the committee to Recognize Great Dogs</p>
+    </div>
 
-        <div class="row">
-            <div class="column">
-                <img class="dog-image" src="./assets/pip.jpg" />
-                <h1 class="dog-name">Pip</h1>
-                <p class="dog-description">This excitable dog is loving towards her owner, and will always come when called. She is not afraid of
-                    strangers, and gets along well with other animals.
-
-                    She's smart and can easily open doors and containers. She is generally clean. She is slightly playful
-                    and can entertain herself for hours on end. She's quiet until she's hungry.
-
-                    She will steal food from plates if she is not stopped. Her favorite dog food is cooked chicken.
-
-                    She is street-smart.</p>
-            </div>
-            <div class="column">
-                <img class="dog-image" src="./assets/tess.jpg" />
-                <h1 class="dog-name">Tess</h1>
-                <p class="dog-description">This friendly dog is indifferent toward his owner, and never comes when called. He immediately gets
-                    involved with the personal belongings of any new person who enters his space, and does not mind other
-                    animals.
-
-                    He's extremely dopey and does not know any basic commands. He is generally extremely clean. He is
-                    housebroken. He is extremely playful and can entertain himself for hours on end with any items found on
-                    the floor. He likes to talk at his toys.
-                </p>
-            </div>
-            <div class="column">
-                <img class="dog-image" src="./assets/rizzo.jpg" />
-                <h1 class="dog-name">Rizzo</h1>
-                <p class="dog-description">This gentle dog is aloof toward her owner, and never comes when called. She always acts as though any
-                    stranger she meets will harm her, and dislikes other animals.
-
-                    She's smart and very crafty. She is only slightly clean and hates having her teeth cleaned; she rarely
-                    cleans herself after toileting. She is not very playful She's only quiet when she's asleep or up to
-                    something.
-
-                    She will refuse to move when it's time to end the walk. She loves to roam.</p>
-            </div>
-        </div>
-
-        <div class="footer">
-            <p>Paid for by the committee to Recognize Great Dogs</p>
-        </div>
-        
-        <script src="./index.js"></script>
-    </body>
+    <script src="./index.js"></script>
+  </body>
 </html>
